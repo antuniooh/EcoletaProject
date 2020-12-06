@@ -25,7 +25,7 @@ Desenvolvimento do site Ecoleta, projeto esse ministrado na semana 1 da NLW da R
 
 Tanto no Windows quanto no Linux a execução é feita a partir da execução do seguinte comando.
 
-``bash
+``
 npm start
 ``
 

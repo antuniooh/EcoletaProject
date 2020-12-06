@@ -4,6 +4,10 @@ Desenvolvimento do site Ecoleta, projeto esse ministrado na semana 1 da NLW da R
 
 ## Funcionalidade
 
+<img src = "images/home-mobile.png" width ="300" /> <img src = "images/create.gif" width ="300" /> 
+<img src = "images/search-mobile.png" width ="300" /><img src = "images/results.gif" width ="300" />
+
+
 **Home** - O usuário pode cadastrar um novo ponto de coleta ou pesquisar os pontos já cadastrados.
 
 ![image](images/home.png)
@@ -29,10 +33,14 @@ Tanto no Windows quanto no Linux a execução é feita a partir da execução do
 npm start
 ``
 
-Importante ressaltar que é necessário instalar alguns components:
+Importante ressaltar que é necessário instalar alguns componentes antes de executar o programa:
 
 <ul>
     <li>Node JS</li>
+    <li>Express</li>
     <li>Nodemon</li>
+    <li>Nunjucks</li>
     <li>Sqlite3</li>
 </ul>
+
+O projeto ficará hospedado no "localhost:3000"

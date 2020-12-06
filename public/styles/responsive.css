@@ -1,3 +1,56 @@
+@media (max-width: 650px){
+    #page-home main h1{
+        font-size: 30px;
+    }
+
+    #page-home main p{
+        font-size: 20px;
+    }
+
+    #page-home .content{
+        align-items: center;
+        text-align: center;
+    }
+
+    #modal form input {
+        flex: 1;
+        background-color: #f0f0f5;
+        border-radius: 8px 0 0 8px;
+        border: 0;
+        padding: 16px 24px;
+        font-size: 16px;
+        color: #6c6c80;
+    }
+
+    #modal .content{
+        margin: 40px;
+    }
+
+    #page-search-results header a {
+        font-size: 12px;
+    }
+
+    #page-create-point header a {
+        font-size: 12px;
+    }
+
+    form legend {
+        margin-bottom: 40px;
+        display: block;
+    }
+
+    form {
+        padding: 40px;
+    }
+
+    .items-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 5px;
+    }
+}
+
+
 @media (max-width: 900px){
     #page-home{
         background-position-x: 70vw;

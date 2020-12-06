@@ -11,7 +11,7 @@ Desenvolvimento do site Ecoleta, projeto esse ministrado na semana 1 da NLW da R
 **Cadastrar** - O usuário pode cadastrar um novo ponto de coleta, basta inserir os dados necessários, como nome, endereço, estado, cidade e afins, bem como quais categorias de produto esse ponto coleta. Ao final do cadastro aparece uma mensagem de sucesso, caso ocorra perfeitamente a inserção do novo ponto no banco de dados.
 
 ![image](images/create.png)
-![image](images/created.png)
+![image](images/finished.png)
 
 **Pesquisa** - Na home o usuário pode selecionar pesquisar pontos de coleta, desse modo abre-se uma tela, ainda na home, onde o mesmo pode inserir a cidade em que deseja procurar um ponto.
 

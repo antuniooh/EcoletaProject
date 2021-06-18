@@ -1,46 +1,72 @@
-# Projeto NLW - Ecoleta 
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/antuniooh/EcoletaProject">
 
-Desenvolvimento do site Ecoleta, projeto esse ministrado na semana 1 da NLW da Rocketseat. Consiste num site onde o usuário pode cadastrar novos pontos de coleta de certos materiais, bem como pode pesquisar locais em sua região.
+  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/antuniooh/EcoletaProject">
+  
+  <a href="https://github.com/antuniooh/EcoletaProject/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/antuniooh/EcoletaProject">
+  </a>
+  
+   <img alt="GitHub" src="https://img.shields.io/github/license/antuniooh/EcoletaProject">
+</p>
 
-## Funcionalidade
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/antuniooh/EcoletaProject">
+    <img src="https://user-images.githubusercontent.com/38081852/83580830-6f63e200-a513-11ea-9a27-0a109ec1e4d0.png" alt="Logo" width="550">
+  </a>
+</p>
 
-<img src = "images/home-mobile.png" width ="300" /> <img src = "images/create.gif" width ="300" /> 
-<img src = "images/search-mobile.png" width ="300" /><img src = "images/results.gif" width ="300" />
+<p align="center">
+  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript&logoColor=white"/>
+  <img alt="HTML" src="https://img.shields.io/badge/HTML-orange?style=for-the-badge&logo=html5&logoColor=white"/>
+  <img alt="CSS" src="https://img.shields.io/badge/CSS-darkblue?style=for-the-badge&logo=css3&logoColor=white"/>
+</p>
 
 
-**Home** - O usuário pode cadastrar um novo ponto de coleta ou pesquisar os pontos já cadastrados.
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#-about-the-project">About The Project</a>
+    </li>
+    <li>
+      <a href="#-how-to-run">How To Run</a>
+    </li>
+  </ol>
+</details>
 
-![image](images/home.png)
 
-**Cadastrar** - O usuário pode cadastrar um novo ponto de coleta, basta inserir os dados necessários, como nome, endereço, estado, cidade e afins, bem como quais categorias de produto esse ponto coleta. Ao final do cadastro aparece uma mensagem de sucesso, caso ocorra perfeitamente a inserção do novo ponto no banco de dados.
+<!-- ABOUT THE PROJECT -->
+## 💻 About The Project
+Development of the Ecoleta website, this project given on week 1 of Rocketseat's NLW. It consists of a website where the user can register new collection points for certain materials, as well as search for locations in their region.
 
-![image](images/create.png)
-![image](images/finished.png)
+The project aims to establish a connection between companies and/or entities that collect waste (organic and inorganic) to people and/or entities that need to constantly dispose of this waste. Solving a major recurrent problem that is the inadequate disposal of waste, facilitating the recycling and reuse process.
 
-**Pesquisa** - Na home o usuário pode selecionar pesquisar pontos de coleta, desse modo abre-se uma tela, ainda na home, onde o mesmo pode inserir a cidade em que deseja procurar um ponto.
+![app](https://github.com/antuniooh/EcoletaProject/blob/master/images/app.gif)
 
-![image](images/search.png)
 
-**Resultados** - Exibe o resultado da pesquisa realizada pelo usuário, caso não haja nenhum input, exibirá a lista completa de todos os pontos já cadastrados.
+<!-- HOW TO RUN -->
+## 🚀 How To Run
 
-![image](images/results.png)
+⚠️ For a better experience, open the project in the following link: https://antuniooh.github.io/EcoletaProject/ ⚠️
 
-## Execução
+### Terminal
+```bash
 
-Tanto no Windows quanto no Linux a execução é feita a partir da execução do seguinte comando.
+# Clone the repository
+$ git clone https://github.com/antuniooh/EcoletaProject.git
 
-``
-npm start
-``
+# Access the project folder in your terminal / cmd
+$ cd EcoletaProject
 
-Importante ressaltar que é necessário instalar alguns componentes antes de executar o programa:
+# Install libs
+$ npm install
 
-<ul>
-    <li>Node JS</li>
-    <li>Express</li>
-    <li>Nodemon</li>
-    <li>Nunjucks</li>
-    <li>Sqlite3</li>
-</ul>
+# Deploy 
+$ npm start
 
-O projeto ficará hospedado no "localhost:3000"
+```
+The project will be hosted at "localhost:3000"
